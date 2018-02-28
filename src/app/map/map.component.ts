@@ -14,12 +14,12 @@ export class MapComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    var mapProp = {
-      center: new google.maps.LatLng(44.4759, 73.2121),
-      zoom: 8,
+    let mapProp = {
+      center: new google.maps.LatLng(44.475, -73.212),
+      zoom: 13,
       mapTypeId: google.maps.MapTypeId.ROADMAP
     };
-    this.map = new google.maps.Map(this.gmapElement.nativeElement, mapProp);
+    return this.map = new google.maps.Map(this.gmapElement.nativeElement, mapProp);
   }
 
 }
