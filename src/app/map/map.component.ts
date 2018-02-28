@@ -17,10 +17,14 @@ export class MapComponent implements OnInit {
     let mapProp = {
       center: new google.maps.LatLng(44.475, -73.212),
       zoom: 13,
-      mapTypeId: google.maps.MapTypeId.ROADMAP
+      mapTypeId: google.maps.MapTypeId.ROADMAP,
+      styles: [
+
+      ]
     };
     return this.map = new google.maps.Map(this.gmapElement.nativeElement, mapProp);
   }
+
 
 }
 
