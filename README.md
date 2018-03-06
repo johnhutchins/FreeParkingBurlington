@@ -2,7 +2,7 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.7.
 
-##Let me save you some ballbusting time
+## Let me save you some ballbusting time
 
 make sure you that install googlemaps types.... npm install @types/googlemaps
 to import it where you need it... import {} from '@types/googlemaps';
@@ -19,7 +19,7 @@ unit tests via [Karma](https://karma-runner.github.io).
 
 end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-##More
+## More
 
 gmap
 AIzaSyACzE0X4Wdh9CLF-kN4Rs_MBVF_7TiP2p8
