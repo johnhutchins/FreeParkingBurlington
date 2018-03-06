@@ -21,7 +21,7 @@ export class MapComponent implements OnInit, AfterContentInit {
       zoom: 13,    
       mapTypeId: google.maps.MapTypeId.ROADMAP     
     };
-
+    
   return this.map = new google.maps.Map(this.gmapElement.nativeElement, mapProp);
   }  
 
