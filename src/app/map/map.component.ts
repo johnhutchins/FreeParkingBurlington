@@ -26,7 +26,23 @@ export class MapComponent implements OnInit {
     });
 
     return this.map = new google.maps.Map(this.gmapElement.nativeElement, mapProp);
-  }
+  }  
 
 }
+
+/* 
+Note: initializing the map as such works. try this in a jsfiddle to see.
+look at the init
+
+function initMap() {
+  var map = new google.maps.Map(document.getElementById('map'), {
+    zoom: 11,
+    center: {lat: 44.475, lng: -73.212}
+  });
+
+  var ctaLayer = new google.maps.KmlLayer({
+         url: 'https://sites.google.com/site/freeparkingburlington/home/freeParking.kml',
+      map: map
+  });
+} */
 
