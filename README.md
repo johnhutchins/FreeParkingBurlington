@@ -11,13 +11,13 @@ to import it where you need it... import {} from '@types/googlemaps';
 
 `ng serve` for a dev server. Navigate to `http://localhost:4200/`. 
 
-## Running unit tests
+## Live deployment with Surge
 
-unit tests via [Karma](https://karma-runner.github.io).
+check out `https://surge.sh/`
+npm install --global surge
+build project for production
+run `surge` from cli
 
-## Running end-to-end tests
-
-end-to-end tests via [Protractor](http://www.protractortest.org/).
 
 ## More
 
