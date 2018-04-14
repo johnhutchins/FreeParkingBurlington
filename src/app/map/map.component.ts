@@ -18,7 +18,7 @@ export class MapComponent implements OnInit, AfterContentInit {
 
     let mapProp: any = {
       center: new google.maps.LatLng(44.475, -73.212),
-      zoom: 13,    
+      minZoom: 15,  
       mapTypeId: google.maps.MapTypeId.ROADMAP     
     };
     
