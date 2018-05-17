@@ -28,10 +28,10 @@ export class MapComponent implements OnInit, AfterContentInit {
 
   ngAfterContentInit(){
     let ctaLayer = new google.maps.KmlLayer({
-      url: 'https://sites.google.com/site/freeparkingburlington/home/freeParking.kml',
+      url: 'https://sites.google.com/site/freeparkingburlington/home/freeParkingBurlington.kml',
       map: this.map
     });
   }
-
+ 
 }
 
