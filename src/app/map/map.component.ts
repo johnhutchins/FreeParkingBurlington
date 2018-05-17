@@ -32,6 +32,6 @@ export class MapComponent implements OnInit, AfterContentInit {
       map: this.map
     });
   }
-
+ 
 }
 
